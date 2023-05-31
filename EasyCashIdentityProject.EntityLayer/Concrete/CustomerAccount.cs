@@ -13,5 +13,8 @@ namespace EasyCashIdentityProject.EntityLayer.Concrete
         public string CustomerAccountCurrency { get; set; } //Hesabın Döviz türü
         public decimal CustomerAccountBalance { get; set; } //Hesap bakiyesi
         public string BankBranch { get; set; }   //Banka şubesi
+
+        public int AppUserID { get; set; }  //Hesab hangi kullanıcının hesabı
+        public AppUser AppUser { get; set; } //Hesabın Kullanıcısı Var
     }
 }
