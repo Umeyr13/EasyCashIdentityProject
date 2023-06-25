@@ -16,5 +16,7 @@ namespace EasyCashIdentityProject.EntityLayer.Concrete
 
         public int AppUserID { get; set; }  //Hesab hangi kullanıcının hesabı
         public AppUser AppUser { get; set; } //Hesabın Kullanıcısı Var
+        public List<CustomerAccountProcess> CustomerSender { get; set; }//Müşterinin gönderdiği paralar
+        public List<CustomerAccountProcess> CustomerReceiver { get; set; }//Müşterinin aldığı paralar paralar
     }
 }
