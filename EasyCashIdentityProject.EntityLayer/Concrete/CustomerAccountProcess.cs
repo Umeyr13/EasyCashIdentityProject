@@ -16,8 +16,8 @@ namespace EasyCashIdentityProject.EntityLayer.Concrete
         public int? ReceiverID { get; set; } //Alan kişinin ID
         public CustomerAccount SenderCustomer { get; set; }//Gönderen müşteri
         public CustomerAccount ReceiverCustomer { get; set; }//Alan müşteri
-
-
+        public string Description { get; set; } //gönderilen para açıklaması
+       
         //Kullanıcı hesabının işlemleri olarak düşünürsek CustomerAccount ile ilişkili aslında
     }
 }

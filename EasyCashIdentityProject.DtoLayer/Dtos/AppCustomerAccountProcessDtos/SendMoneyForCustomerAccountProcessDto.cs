@@ -15,5 +15,6 @@ namespace EasyCashIdentityProject.DtoLayer.Dtos.AppCustomerAccountProcessDtos
         public int SenderID { get; set; } //Gönderen kişinin ID
         public int ReceiverID { get; set; } //Alan kişinin ID
         public string ReceiverAccountNumber { get; set; } //Alıcının Hesap Numarası
+        public string Description { get; set; } 
     }
 }
